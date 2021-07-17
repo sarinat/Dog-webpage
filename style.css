@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* #darkmode{
+    background-color: rgb(148, 141, 141);
+} */
+
+.firstpage{
+    background-image:url(images/dog-1.webp);
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 20px;
+    position: fixed;
+    background-color:rgb(114, 168, 182);
+    color: black;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    padding-top: 20px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#home1{
+    text-decoration: underline;
+}
+
+#textbox{
+    border-radius: 20px;
+    padding: 12px;
+    border: none;
+}
+
+.firstpage-content{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    color: #fff;
+    padding: 100px;
+    margin-top: 70px;
+}
+
+.firstpage-center{
+    line-height: 50px;
+}
+
+.firstpage-buttons{
+    margin-top: 50px;
+}
+
+#btn1, #btn2 {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+#btn2{
+    background: none;
+}
+
+#btn1:hover{
+    background: none;
+}
+
+#btn2:hover{
+    background-color: #fff;
+}
+
+.secondpage{
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 200%;
+}
+
+.aboutus{
+    padding: 30px;
+}
+
+.aboutus2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.mission, .vision{
+    padding: 25px 25px 0px 0px;
+    margin-top: 5px;
+}
+
+.thirdpage{
+    background-color: rgb(253, 244, 244);
+    padding: 40px;
+    height: 750px;
+}
+
+.what-we-do{
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    line-height: 200%;
+}
+
+.what-we-do-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.what-we-do-box{
+    background-color: white;
+    width: 370px;
+    height: 420px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.what-we-do-box:hover{
+    box-shadow: 0 0 8px 2px rgba(151, 146, 146);
+}
+
+.what-we-do-box .image{
+    width: 370px;
+    height: 250px;  
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.what-we-do-box .content{
+    text-align: left;
+    padding: 20px;
+    line-height: 200%;
+}
+
+#readmore{
+    color: red;
+}
+
+.fourthpage{
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.happycustomers{
+    line-height: 200%;
+    margin: 70px;
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+}
+
+.customers{
+    display: flex;
+}
+
+.satisfaction{
+    display: flex; 
+    margin-left: 40px;
+
+}
+
+.customer-reviews{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.customer1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.customer1 .img1{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.fifthpage{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+
+.dog-infobox-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 120px;
+}
+
+.dog-boxes{
+    margin: 30px;
+}
+
+.dog-img{
+    padding-top: 20px;
+}
+
+.sixthpage{
+    margin-top: 70px;
+    background-image: url(images/smily-dog.jpg);
+    width:100%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sixthpage .pet-lovers{
+    padding: 70px;
+    line-height: 400%;
+    color: #fff;
+
+}
+
+#page6-btn-read{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.seventhpage{
+    text-align: center;
+    line-height: 200%;
+    height: 750px;
+    padding-top: 70px;
+}
+
+
+.news-container-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-container-box{
+    background-color: white;
+    width: 380px;
+    height: 450px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: left;
+    justify-content: space-around;
+    border: 1px solid rgb(218, 213, 213);
+}
+
+
+.news-container-box .news-image{
+    width: 100%;
+    height: 250px;  
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.news-container-box .content1, 
+.content2, .content3{
+    padding: 15px;
+}
+
+#date{
+    text-align: right;
+}
+
+#readmore1{
+    text-align: left;
+    color: blue;
+}
+
+.news-container-box:hover{
+    box-shadow: 0 0 8px 2px rgba(151, 146, 146);
+}
+
+.Our-info{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 40px;
+    height: 400px;
+    line-height: 200%;
+}
+
+.Our-info-box{
+    margin: 50px;
+    padding: 10px;
+}
+
+.Our-info-box ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#questions{
+    padding: 5px;
+}
+
+#btn-qn{
+    background-color: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    size: 150px;
+    background-color:#000;
+    color: #fff;
+    /* border-color: rgb(174, 174, 212);  */
+    /* border-width: 2px 0px 0px 0px;   */
+    /* border-top: 2px; */
+    /* outline: none;  */
+    margin-top: 0.5px;
+}
+
+.footer .left{
+    padding-top: 10px;
+}
+
+
+.right ul{
+    list-style: none;
+}
+
+.right li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    margin:3px;
+    background-color: rgb(66, 64, 64);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
